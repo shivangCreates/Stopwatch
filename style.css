@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("backgroung/Stopwatch\ bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+   height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.outer{
+    align-items: center;
+    text-align: center;
+    margin-top: 250px;
+   
+}
+.stopwatch{
+    background-color: #7ca4eb;
+    height: 250px;
+    padding: 50px;
+    width: 40%;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+h3{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+   
+    text-align: center;
+}
+span{
+    font-size: 60px;
+}
+.buttons{
+    margin-left: 550px;
+    margin-top: 30px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+   
+    
+}
+#btn1
+{
+ background-color: rgb(54, 241, 2);
+}
+#btn2{
+    background-color: red;
+}
+#btn3{
+    background-color: yellow;
+}
+
